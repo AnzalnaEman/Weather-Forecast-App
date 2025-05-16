@@ -39,5 +39,35 @@ Obtain an API key from OpenWeatherMap.
 Run the Python script to launch the app.
 
 Enter a city name to view weather data and explore features via the UI.
+
+
+# Running the Weather Forecast App
+
+### Clone the repository:
+``` bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
+
+### Set Up a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate    
+```
+
+### Install Required Libraries
+```bash
+streamlit
+requests
+```
+
+### Run the App
+```bash
+streamlit run app.py
+```
+
+
+
+
  
 
